@@ -7,7 +7,7 @@
 }
 
 body{
-	background: #f8edd3;
+	background: #c2d7da;
 }
 
 header{
@@ -17,13 +17,16 @@ header{
 .navegacion{
 	width: 1000px;
 	margin: 30px auto;
-	background: rgb(185, 185, 185);
+	background: rgb(90, 90, 90);
 }
 
 .navegacion ul{
 	list-style: none;
 }
-
+ .logo img{
+     position: absolute;
+     margin: 10px auto;
+ }
 .menu > li{
 	position: relative;
 	display: inline-block;
@@ -32,7 +35,7 @@ header{
 .menu > li > a{
 	display: block;
 	padding: 15px 20px;
-	color: #353535;
+	color: #ffffff;
 	font-family: 'Open sans';
 	text-decoration: none;
 }
