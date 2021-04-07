@@ -3,27 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caos News</title>
-    <!--<link rel="stylesheet" href="estilos.css">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
     <style>
         * {
-            margin: 0%;
-            padding: 0%;
+            margin: 0;
+            padding: 0;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
         }
 
         body {
-            background-color: rgb(243, 239, 217);
+            background: #313D52;
+        }
+
+        header {
+            width: 100%;
         }
 
         .navegacion {
             width: 1000px;
             margin: 30px auto;
-            background-color: rgb(223, 222, 222);
+            background: #fff;
         }
 
         .navegacion ul {
@@ -31,14 +35,14 @@
         }
 
         .menu>li {
-            /*position: relative;*/
+            position: relative;
             display: inline-block;
         }
 
         .menu>li>a {
             display: block;
             padding: 15px 20px;
-            color: black;
+            color: #353535;
             font-family: 'Open sans';
             text-decoration: none;
         }
@@ -48,10 +52,12 @@
             transition: all .3s;
         }
 
+        /* Submenu*/
+
         .submenu {
             position: absolute;
             background: #333333;
-            width: 15%;
+            width: 120%;
             visibility: hidden;
             opacity: 0;
             transition: opacity 1.5s;
@@ -65,7 +71,7 @@
             text-decoration: none;
         }
 
-        .menu li :hover .submenu {
+        .menu li:hover .submenu {
             visibility: visible;
             opacity: 1;
         }
@@ -76,17 +82,17 @@
     <header>
         <nav class="navegacion">
             <ul class="menu">
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Menú</a>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a>
                     <ul class="submenu">
-                        <li><a href="#">Nuestros colaboradores</a></li>
-                        <li><a href="#">Categorias</a></li>
-                        <li><a href="#">Periodistas</a> </li>
+                        <li><a href="#">Servicio #1</a></li>
+                        <li><a href="#">Servicio #2</a></li>
+                        <li><a href="#">Servicio #3</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Contacto</a></li>
             </ul>
-
         </nav>
     </header>
 </body>
