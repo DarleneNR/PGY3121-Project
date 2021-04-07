@@ -48,7 +48,7 @@ body {
     font-family: 'Open sans';
     text-decoration: none;
 }
-.menu li : hover .submenu{
+.menu li :hover .submenu{
     visibility: visible;
     opacity: 1;
 }
