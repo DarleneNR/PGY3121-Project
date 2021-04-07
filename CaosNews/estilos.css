@@ -33,10 +33,11 @@ body {
 }
 .submenu{
     position: absolute;
-    background: #333333;
+    background: #7a7a7a;
 }
 .submenu li a {
     display: block;
+    width: 120%;
     padding: 15px;
     color:#fff;
     font-family: 'Open sans';
