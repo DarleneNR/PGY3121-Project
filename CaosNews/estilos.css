@@ -19,5 +19,11 @@ body {
 .menu >li{
     /*position: relative;*/
     display: inline-block;
-
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
