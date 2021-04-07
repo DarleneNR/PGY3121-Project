@@ -24,6 +24,10 @@ body {
     display: block;
     padding: 15px 20px;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(206, 245, 245);
+
 }
