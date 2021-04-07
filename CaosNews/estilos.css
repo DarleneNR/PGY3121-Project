@@ -28,7 +28,7 @@ body {
     text-decoration: none;
 }
 .menu li a:hover{
-    color: rgb(150, 192, 192);
+    color: rgb(17, 70, 26);
     transition: all .3s;
 
 }
