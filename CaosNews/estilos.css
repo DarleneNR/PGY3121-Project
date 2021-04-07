@@ -47,7 +47,7 @@ header {
 .submenu {
     position: absolute;
     background: #333333;
-    width: 120%;
+    width: 15%;
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s;
