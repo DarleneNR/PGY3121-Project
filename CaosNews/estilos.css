@@ -7,7 +7,7 @@
 }
 
 body{
-	background: #313D52;
+	background: #f8edd3;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
 .navegacion{
 	width: 1000px;
 	margin: 30px auto;
-	background: #fff;
+	background: rgb(185, 185, 185);
 }
 
 .navegacion ul{
@@ -47,7 +47,7 @@ header{
 .submenu{
 	position: absolute;
 	background: #333333;
-	width: 120%;
+	width: 130%;
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity 1.5s;
