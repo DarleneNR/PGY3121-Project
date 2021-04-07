@@ -13,3 +13,11 @@ body {
     margin: 30px auto;
     background-color: rgb(187, 187, 187) ;
 }
+.navegacion ul{
+    list-style: none;
+}
+.menu >li{
+    position: relative;
+    display: inline-block;
+
+}
