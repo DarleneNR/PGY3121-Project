@@ -37,7 +37,7 @@ body {
     width: 15%;
     visibility: hidden;
     opacity: 0;
-    transition-delay: opacity  1.5s;
+    transition: initial 1.5s;
 }
 .submenu li a {
     display: block;
