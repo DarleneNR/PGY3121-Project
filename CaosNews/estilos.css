@@ -24,8 +24,9 @@ header{
 	list-style: none;
 }
  .logo img{
-     position: absolute;
      margin: 10px auto;
+     position: absolute;
+
  }
 .menu > li{
 	position: relative;
