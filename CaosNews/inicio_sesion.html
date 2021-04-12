@@ -3,9 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
     <div id="contenedor">
         <header id="Bienvenida">
@@ -13,7 +18,7 @@
         </header>
         <nav class="navegacion">
             <ul class="menu">
-                <a href="index.html"><img src="logo.png" /></a>
+                <a href="index.html"><img src="logo.png"></a>
                 <li><a href="#">Menú</a>
                     <ul class="submenu">
                         <li><a href="#">Nuestros colaboradores</a></li>
@@ -22,7 +27,8 @@
                     </ul>
                 </li>
                 <li><a href="contacto_general.html">Contacto</a></li>
-                <li><a href="inicio_sesion.html">Inicio Sesion</a></li>
+                <li><a href="#">Inicio Sesion</a></li>
+
                 <div class="buscar">
                     <form method="get" action="/cgi-bin/prontus_search.cgi">
                         <input type="text" id="query" placeholder="Ingresa tu búsqueda" value="" name="search_texto">
@@ -31,7 +37,6 @@
                 </div>
             </ul>
         </nav>
-    </header>
     <section class="inicio_sesion">
         <h5>Iniciar Sesion</h5>
         <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
