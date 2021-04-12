@@ -80,3 +80,7 @@ header{
 	visibility: visible;
 	opacity: 1;
 }
+	
+.carousel-item {
+	height: 450px;
+}
