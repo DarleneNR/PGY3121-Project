@@ -84,3 +84,220 @@ header{
 .carousel-item {
 	height: 450px;
 }
+
+/*contacto general*/
+#contenido{
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;      
+}
+#contenido form{
+    display: flex;
+    flex-flow: column; 
+    width: 101%;
+    height: 101%;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(168, 165, 165) 0px 0px 25px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 8px;
+}
+
+section form input{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px;
+    width: 75%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 3px solid rgb(128, 177, 180);
+    border-radius: 15px;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    padding: 15px;
+    width: 200px;
+    border-radius: 80px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+
+}
+
+textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    width: 80%;
+    height: 50%;
+    padding: 15px;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 3px solid rgb(128, 177, 180);
+    border-radius: 15px;
+    outline: none;
+    
+
+}
+/*contacto general*/
+
+/*añadidos*/
+#contenedor{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#Bienvenida{
+    height: 150px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 8px;
+    box-shadow: rgb(124, 124, 124) 0px 0px 25px;
+   
+}
+#Bienvenida h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenido{
+    width: 680px;
+    height: 550px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgb(124, 124, 124) 0px 0px 25px;
+}
+#sobre_nosotros{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(83, 83, 83);
+    margin-top: 10px;
+    float: right;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgb(124, 124, 124) 0px 0px 25px;
+}
+#redes_sociales{
+    width: 250px;
+    height: 143px;
+    background-color: rgb(83, 83, 83);
+    margin-top: 10px;
+    float: right;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer{
+    background-color: cadetblue;
+    clear: both;
+    border-radius: 8px;
+    box-shadow: rgb(124, 124, 124) 0px 0px 25px;
+    padding: 5px;
+
+}
+footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+aside p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside img{
+    width: 40px;
+    margin: 15px;
+
+}
+/*añadidos*/
+
+/*inicio sesion*/
+
+.inicio_sesion{
+    width: 400px;
+    height: 470px;
+    background-color: rgb(160, 160, 160);
+    margin: auto;
+    margin-top: 45px;
+    box-shadow: black;
+    padding: 20px 30px;
+    border-top: rgb(70, 70, 202);
+    color: rgb(144, 205, 209);
+    border-radius: 8px;
+
+}
+.inicio_sesion h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls{
+    width: 100%;
+    border: 1px solid rgb(48, 47, 46);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(95, 94, 92);
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+.inicio_sesion p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.inicio_sesion a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.inicio_sesion a:hover{
+    text-decoration: underline;
+}
+section div{
+    width: 250px;
+    height: 143px;
+    background-color: rgb(83, 83, 83);
+    margin-top: 15px;
+    margin-left: 45px;
+    border-radius: 8px;
+    padding: 12px;
+  
+
+
+}
+section div img{
+    width: 40px;
+    margin: 15px;
+
+}
+
+/*inicio sesion*/
+
